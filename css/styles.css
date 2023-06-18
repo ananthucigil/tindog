@@ -1,0 +1,144 @@
+body{
+    font-family: "Montserrat";
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.white-section{
+    background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6, .btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+#testimonials, #press{
+    background-color: #ef8172;
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.iphone{
+    margin-left: 4rem;
+    margin-top: 0rem;
+    transform: rotate(25deg);
+    width: 50%;
+    position: relative;
+    top: 6rem;
+}
+/* Navigation Bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+    
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.description{
+    text-align: center;
+    padding: 8rem;
+    margin: auto 3rem;
+}
+.icon:hover{
+    color: #ff4c68 !important;
+    
+    
+}
+.feature{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.feature-paragraph{
+    color: #8f8f8f;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+}
+.testimonial{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.card{
+    margin: 20px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+/* Stacking */
+#features{
+    position: relative;
+    background-color: #fff;
+    opacity: 90%;
+}
+@media (max-width: 992px) {
+    .iphone{
+        position: static;
+        transform: none;
+    }
+    #title, #features, #testimonials, #cta{
+        text-align: center;
+    }
+}
+#cta{
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+#footer{
+    text-align: center;
+    margin: 4rem auto;
+}
+.social-media{
+    display: inline-block;
+    padding: 16px;
+}
+.cta-text{
+    margin: auto 18rem;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
